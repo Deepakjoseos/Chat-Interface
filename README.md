@@ -26,3 +26,5 @@ To install the Chat-Interface PCF Control in your Power Apps environment, follow
 ## Demo
 
 ![pcfcontrol demo](https://github.com/user-attachments/assets/97dcc972-f79d-4580-a94a-9e4242a9ae05)
+
+Check out a live demo of the Chat-Interface PCF Control [here](https://github.com/user-attachments/assets/97dcc972-f79d-4580-a94a-9e4242a9ae05), showcasing its key features and functionalities.
