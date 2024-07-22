@@ -4,33 +4,8 @@ import { RiFileUploadLine, RiSendBackward ,RiSendToBack, RiFileDownloadFill , Ri
 import { PrimaryButton } from '@fluentui/react';
 import { Spinner, SpinnerSize } from '@fluentui/react';
 import "./Chat.css";
-import { IInputs } from "./generated/ManifestTypes";
-import { IChatRecord } from "./types";
-
-
-export interface IChatDisplayState {
-    newMessage: string;
-    selectedFile: File | null;
-    fileName: string | '';
-    fileData: string | '';
-    fileTypes: string | '';
-    isLoading: boolean;
-    shouldScrollToBottom: boolean; // Add a flag for scrolling
-}
-export interface IChatDisplayProps {
-    columns: ComponentFramework.PropertyHelper.DataSetApi.Column[];
-    records: IChatRecord[];
-    context: ComponentFramework.Context<IInputs>;
-    entityId: string | undefined;
-    formEntityType: string | undefined;
-    datasetEntityType: string | undefined;
-    // totalMessages: number;
-    hasNextPage: boolean;
-    currentPage: number;
-    onNextPage:() => void
-    // onPreviousPage:() => void
-    loadFirstPage:() => void
-}
+import { IChatDisplayState } from "./types";
+import { IChatDisplayProps } from "./types";
 
 export class ChatDisplay extends React.Component<IChatDisplayProps, IChatDisplayState> {
     private containerRef: React.RefObject<HTMLDivElement>;

@@ -1,8 +1,8 @@
 import { IInputs, IOutputs } from "./generated/ManifestTypes";
-import { ChatDisplay, IChatDisplayProps } from "./ChatDisplay";
+import { ChatDisplay } from "./ChatDisplay";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { IChatRecord } from "./types";
+import { IChatRecord, IChatDisplayProps } from "./types";
 
 interface IMode {
     contextInfo: {
