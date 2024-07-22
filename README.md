@@ -14,7 +14,7 @@ To install the Chat-Interface PCF Control in your Power Apps environment, follow
 
 ### Install the Solution
 
-1. Download the Chat-Interface PCF solution package from [GitHub releases](link-to-release).
+1. Download the Chat-Interface PCF solution package from [GitHub releases](ChatSolution).
 2. Install the solution package into your Dynamics 365 environment via the Solution Management area.
 
 ### Add Component to a Form
